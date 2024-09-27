@@ -79,7 +79,6 @@ nav a {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
-    color: rgba(17, 17, 17, 0.7);
     text-align: right;
     flex-basis: auto;
 }
@@ -92,8 +91,7 @@ nav a {
     overflow: hidden;
     position: absolute;
     text-align: left;
-    background-size: 100% 100%;
-    z-index: 1;
+    z-index: 13;
 }
 .dollar-1{
     background-color: #e1dcdc;
@@ -117,14 +115,15 @@ nav a {
 }
 
 .donation-buttons button {
-    background-color: #4caf50;
-    color: white;
+    background-color: #b4f461;
+    color: #111111;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     margin-right: 10px;
     border-radius: 5px;
+    row-gap: 10px;
 }
 
 .donation-buttons button.active {
